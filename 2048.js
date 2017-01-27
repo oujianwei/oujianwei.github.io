@@ -518,7 +518,7 @@ function addScoreAnimation(score) {      //加分动画
     var $addScore = $("#addScoreAnimation");
     $addScore.text(scoretext)
         .show()
-        .animate({top: "-=50px",opacity:"0"}, 600)
+        .animate({opacity:"0"}, 600)
         .hide(600)
-        .animate({top: "+=50px",opacity:"1"}, 10);
+        .animate({opacity:"1"}, 10);
 }

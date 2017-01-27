@@ -1,0 +1,116 @@
+body {
+    background-color: #f4f4f2;
+}
+
+header {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+header > h1 {
+    display: block;
+    margin: 0px auto;
+    font-family: 华文琥珀;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#newgamebutton {
+    background-color: dimgray;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-family: 华文琥珀;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header > p {
+    color: #000;
+    display: block;
+    margin: 10px auto;
+    font-family: 华文琥珀;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#newgamebutton:hover {
+    background-color: #ccc;
+}
+
+#score {
+    color: #c62;
+}
+
+#grid-container {
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    background-color: dimgray;
+    margin: 0 auto;
+    border-radius: 6px;
+    position: relative;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 6px;
+    background-color: #ccc;
+}
+
+.number-cell {
+    font-weight: bold;
+    font-size: 60px;
+    font-family: 幼圆;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 6px;
+    position: absolute;
+}
+
+#game-over {
+    position: absolute;
+    z-index: 100;
+    border-radius: 6px;
+    background-color: dimgray;
+    text-align: center;
+}
+
+#game-over > p {
+    color: #000;
+    display: block;
+    font-family: 华文琥珀;
+    font-weight: bold;
+}
+
+#ok {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-family: 华文琥珀;
+    font-weight: bold;
+}
+
+#ok:hover {
+    color: #ccc;
+}
+
+#addScoreAnimation {
+    position: absolute;
+    color: #c62;
+    font-size: 25px;
+}
+
+
+

@@ -7,6 +7,13 @@ window.onload = function () {
 function init() {
     var s_sub = document.querySelector(".s_sub");
     var s_del = document.querySelector(".s_del");
+    document.onkeydown = function (event) {
+        if (event.keyCode === 13) {
+            var someText = document.querySelector(".s_txt").value;
+            move(someText);
+            document.querySelector(".s_txt").value = "";
+        }
+    }
     s_sub.onclick = function () {
         var someText = document.querySelector(".s_txt").value;
         move(someText);

@@ -4,28 +4,34 @@
     overflow: hidden;
     width: 80%;
     height: 380px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     margin: 20px auto;
 }
-p{
+
+p {
     text-align: center;
 }
-.s_txt{
+
+.s_txt {
     width: 30%;
     height: 35px;
-    border: 1px solid rgb(204,204,204);
+    border: 2px solid rgb(204, 204, 204);
 }
-.s_sub{
+
+.s_sub {
     width: 12%;
     height: 35px;
-    color: rgb(230,80,0);
+    color: rgb(230, 80, 0);
     background-color: #fff;
-    border: 1px solid rgb(230,80,0);
+    border: 1px solid rgb(230, 80, 0);
+    cursor: pointer;
 }
-.s_del{
+
+.s_del {
     width: 12%;
     height: 35px;
     color: #ccc;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
+    cursor: pointer;
 }
